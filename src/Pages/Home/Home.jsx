@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Home.css'
+import Addcard from '../../Components/Addcard/Addcard'
 
 const Home = () => {
 // // ======= Dark mood start=======
@@ -29,8 +30,8 @@ const Home = () => {
 
   return (
     <>
-    <div className='container transition-all duration-[.4s] dark:bg-black'>
-      <h1 className='text-xl font-medium text-black dark:text-white'> Home page</h1>
+    <div className='container transition-all duration-[.4s] dark:bg-black p-5'>
+      <Addcard />
     </div>
     </>
   )

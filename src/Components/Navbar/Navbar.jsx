@@ -46,7 +46,10 @@ const Navbar = () => {
     <>
     <nav className='main_menu transition-all duration-[.4s] dark:bg-black'>
         <div className="container"> 
+        <div className='flex items-center justify-between'>
+        <div className='w-[50px] flex justify-start items-center'><img src="Images/notes.png" alt="" /></div>
            <div className='flex justify-end'>
+            
             <div className='userProfile flex items-center gap-3'>
               <div className='userPhoto overflow-hidden border-2 border-black w-[50px] h-[50px] rounded-full bg-slate-500'>
                 <img src={reData?.photoURL} alt="" />
@@ -74,6 +77,7 @@ const Navbar = () => {
         {/* =============== dark mode end ======= */}
             </div> 
             
+        </div>
         </div>
 
     </nav>

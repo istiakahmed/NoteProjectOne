@@ -7,7 +7,7 @@ import { IoTrashOutline } from "react-icons/io5";
 const SideNavbar = () => {
   return (
     <>
-     <nav className='w-[200px] bg-gray-100 h-screen transition-all duration-[.4s] dark:bg-black'>
+     <nav className='w-[200px] bg-gray-100 h-screen dark:border-r-2 dark:border-gray-400 transition-all duration-[.4s] dark:bg-black'>
       <h2 className='text-xl font-bold text-gray-400 p-2 mb-[20px]'>Notes</h2>
       <ul>
         <li className='p-2'>
