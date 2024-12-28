@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Home.css'
 import Addcard from '../../Components/Addcard/Addcard'
+import Singlecard from '../../Components/SingleCard/Singlecard'
 
 const Home = () => {
 // // ======= Dark mood start=======
@@ -32,6 +33,9 @@ const Home = () => {
     <>
     <div className='container transition-all duration-[.4s] dark:bg-black p-5'>
       <Addcard />
+      <div className='flex flex-wrap gap-5 mt-5'>
+        <Singlecard />
+      </div>
     </div>
     </>
   )
